@@ -19,6 +19,8 @@ me-statics/
 │   ├── 02-force-vectors.md
 │   ├── 03-particle-equilibrium.md
 │   ├── 04-force-system-resultants.md
+│   ├── solution/                # 習題解答 Markdown
+│   │   ├── 01-general-principles.md ~ 11-virtual-work.md
 │   └── resources/               # 筆記資源檔案
 ```
 
@@ -35,19 +37,19 @@ me-statics/
 
 ### 習題解答 (Solution Sets)
 
-| 章節 | 解答檔案 |
-|------|---------|
-| Ch 1 | [Solution_Chpter 1.pdf](course-materials/Solution_Chpter%201.pdf) |
-| Ch 2 | [Solution_Chpter 2.pdf](course-materials/Solution_Chpter%202.pdf) |
-| Ch 3 | [Solution_Chpter 3.pdf](course-materials/Solution_Chpter%203.pdf) |
-| Ch 4 | [Solution_Chpter 4.pdf](course-materials/Solution_Chpter%204.pdf) |
-| Ch 5 | [Solution_Chpter 5.pdf](course-materials/Solution_Chpter%205.pdf) |
-| Ch 6 | [Solution_Chpter 6.pdf](course-materials/Solution_Chpter%206.pdf) |
-| Ch 7 | [Solution_Chpter 7.pdf](course-materials/Solution_Chpter%207.pdf) |
-| Ch 8 | [Solution_Chpter 8.pdf](course-materials/Solution_Chpter%208.pdf) |
-| Ch 9 | [Solution_Chpter 9.pdf](course-materials/Solution_Chpter%209.pdf) |
-| Ch 10 | [Solution_Chpter 10.pdf](course-materials/Solution_Chpter%2010.pdf) |
-| Ch 11 | [Solution_Chpter 11.pdf](course-materials/Solution_Chpter%2011.pdf) |
+| 章節 | Markdown 解答 | 原始 PDF |
+|------|-------------|---------|
+| Ch 1 | [📝 解答](notes/solution/01-general-principles.md) | [PDF](course-materials/Solution_Chpter%201.pdf) |
+| Ch 2 | [📝 解答](notes/solution/02-force-vectors.md) | [PDF](course-materials/Solution_Chpter%202.pdf) |
+| Ch 3 | [📝 解答](notes/solution/03-particle-equilibrium.md) | [PDF](course-materials/Solution_Chpter%203.pdf) |
+| Ch 4 | [📝 解答](notes/solution/04-force-system-resultants.md) | [PDF](course-materials/Solution_Chpter%204.pdf) |
+| Ch 5 | [📝 解答](notes/solution/05-equilibrium-rigid-body.md) | [PDF](course-materials/Solution_Chpter%205.pdf) |
+| Ch 6 | [📝 解答](notes/solution/06-structural-analysis.md) | [PDF](course-materials/Solution_Chpter%206.pdf) |
+| Ch 7 | [📝 解答](notes/solution/07-internal-forces.md) | [PDF](course-materials/Solution_Chpter%207.pdf) |
+| Ch 8 | [📝 解答](notes/solution/08-friction.md) | [PDF](course-materials/Solution_Chpter%208.pdf) |
+| Ch 9 | [📝 解答](notes/solution/09-center-of-gravity.md) | [PDF](course-materials/Solution_Chpter%209.pdf) |
+| Ch 10 | [📝 解答](notes/solution/10-moments-of-inertia.md) | [PDF](course-materials/Solution_Chpter%2010.pdf) |
+| Ch 11 | [📝 解答](notes/solution/11-virtual-work.md) | [PDF](course-materials/Solution_Chpter%2011.pdf) |
 
 ## 🎯 主要主題
 
@@ -84,6 +86,7 @@ me-statics/
 - [x] 建立 `notes/02-force-vectors.md`
 - [x] 建立 `notes/03-particle-equilibrium.md`
 - [x] 建立 `notes/04-force-system-resultants.md`
+- [x] 將習題解答 PDF 轉換為 Markdown (Ch1–Ch11)
 - [ ] 為每章節補充更多例題與學習重點
 - [ ] 新增相關參考資源與連結
 
