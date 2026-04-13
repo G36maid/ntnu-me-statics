@@ -19,6 +19,7 @@ me-statics/
 │   ├── 02-force-vectors.md
 │   ├── 03-particle-equilibrium.md
 │   ├── 04-force-system-resultants.md
+│   ├── 05-equilibrium-rigid-body.md
 │   ├── solution/                # 習題解答 Markdown
 │   │   ├── 01-general-principles.md ~ 11-virtual-work.md
 │   └── resources/               # 筆記資源檔案
@@ -34,6 +35,7 @@ me-statics/
 | Ch 2 | Force Vectors | [📝 筆記](notes/02-force-vectors.md) | [PDF](course-materials/ch02%20Force%20Vectors(modified).pdf) |
 | Ch 3 | Equilibrium of a Particle | [📝 筆記](notes/03-particle-equilibrium.md) | [PDF](course-materials/ch03%20Equilibrium%20of%20a%20Particle_N.pdf) |
 | Ch 4 | Force System Resultants | [📝 筆記](notes/04-force-system-resultants.md) | [PDF](course-materials/ch04N%20Force%20System%20Resultants.pdf) |
+| Ch 5 | Equilibrium of a Rigid Body | [📝 筆記](notes/05-equilibrium-rigid-body.md) | [PDF](course-materials/ch05%20Equilibrium%20of%20a%20Rigid%20Body.pdf) |
 
 ### 習題解答 (Solution Sets)
 
@@ -59,6 +61,7 @@ me-statics/
 - **力向量** (Force Vectors) - 力的向量表示與運算、直角坐標向量、點積
 - **質點平衡** (Equilibrium of a Particle) - 自由體圖、共面與三維力系平衡
 - **力系合量** (Force System Resultants) - 力矩、叉積、力偶、分佈載荷
+- **剛體平衡** (Equilibrium of a Rigid Body) - 自由體圖、二力/三力構件、支撐反力、靜定與靜不定
 
 ## 📝 如何使用此倉庫
 
@@ -86,6 +89,7 @@ me-statics/
 - [x] 建立 `notes/02-force-vectors.md`
 - [x] 建立 `notes/03-particle-equilibrium.md`
 - [x] 建立 `notes/04-force-system-resultants.md`
+- [x] 建立 `notes/05-equilibrium-rigid-body.md`
 - [x] 將習題解答 PDF 轉換為 Markdown (Ch1–Ch11)
 - [ ] 為每章節補充更多例題與學習重點
 - [ ] 新增相關參考資源與連結
@@ -100,4 +104,4 @@ me-statics/
 
 ---
 
-**最後更新**：2026-03-31
+**最後更新**：2026-04-14
