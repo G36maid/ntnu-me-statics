@@ -2,6 +2,28 @@
 
 > Engineering Mechanics: Statics, 14th Edition (SI Units)
 
+### Section Boundaries
+
+| Section | Title | Start Slide | End Slide |
+|:-------:|:------|:-----------:|:---------:|
+| — | Title / Objectives / Outline | 001 | 003 |
+| 1.1 | Mechanics | 004 | 006 |
+| 1.2 | Fundamental Concepts | 007 | 020 |
+| 1.3 | The International System of Units | 021 | 027 |
+| 1.4 | Numerical Calculations | 028 | 032 |
+| 1.5 | General Procedure for Analysis | 033 | 034 |
+| — | Examples | 035 | 038 |
+
+**Example Locations (Slide Index):**
+
+| Example | Slides |
+|---------|--------|
+| Ex 1.1 | 035 -- 035 |
+| Ex 1.2 | 036 -- 036 |
+| Ex 1.3 | 037 -- 038 |
+
+---
+
 ![ch01-General-Principles Slide 01](assets/ch01-General-Principles/slide-01.png)
 
 ---
@@ -291,9 +313,15 @@ Rules for three significant figures:
 
 ---
 
+### Example 1.1
+
 ![ch01-General-Principles Slide 35](assets/ch01-General-Principles/slide-35.png)
 
+### Example 1.2
+
 ![ch01-General-Principles Slide 36](assets/ch01-General-Principles/slide-36.png)
+
+### Example 1.3
 
 ![ch01-General-Principles Slide 37](assets/ch01-General-Principles/slide-37.png)
 
