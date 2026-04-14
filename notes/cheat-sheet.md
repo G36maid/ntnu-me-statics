@@ -1,6 +1,6 @@
 # 靜力學公式速查表
 
-> Engineering Mechanics: Statics, 14th Edition (SI Units) — Ch01~Ch04
+> Engineering Mechanics: Statics, 14th Edition (SI Units) — Ch01~Ch05
 
 ---
 
@@ -237,6 +237,73 @@
 
 - F_R = 積分 w(x) dx
 - x_bar = 積分(x × w(x) dx) / 積分(w(x) dx)
+
+---
+
+## 第五章 — 剛體平衡 (Equilibrium of a Rigid Body)
+
+### 5.1 剛體平衡條件 (Conditions for Rigid-Body Equilibrium)
+
+- Sum F = 0（合力為零）
+- Sum MO = 0（合力矩為零）
+
+### 5.2 支撐反力 2D (Support Reactions, 2D)
+
+| 支撐類型 | 未知數 | 反力 |
+|---------|--------|------|
+| 繩索 (Cable) | 1 | 沿繩方向拉力 |
+| 連桿 (Weightless Link) | 1 | 沿連桿方向 |
+| 滾輪 (Roller) | 1 | 垂直接觸面 |
+| 光滑面 (Smooth Surface) | 1 | 垂直接觸面 |
+| 銷接/鉸鏈 (Pin/Hinge) | 2 | Fx, Fy |
+| 固定端 (Fixed Support) | 3 | Fx, Fy, M |
+
+彈簧力：Fs = k x s
+
+### 5.3 平衡方程式 2D (Equations of Equilibrium, 2D)
+
+**基本組：**
+
+- Sum Fx = 0
+- Sum Fy = 0
+- Sum MO = 0
+
+**替代組 1：** Sum Fx = 0, Sum MA = 0, Sum MB = 0（AB 不垂直 x 軸）
+
+**替代組 2：** Sum MA = 0, Sum MB = 0, Sum MC = 0（ABC 不共線）
+
+**解題策略：** 取力矩的點選在最多未知力通過的點
+
+### 5.4 二力與三力構件 (Two-/Three-Force Members)
+
+- **二力構件 (Two-Force Member)：** 兩力大小相等、方向相反、共線（沿兩點連線方向）
+- **三力構件 (Three-Force Member)：** 三力必須共點 (Concurrent) 或平行 (Parallel)
+
+### 5.5 支撐反力 3D (Support Reactions, 3D)
+
+| 支撐類型 | 未知數 | 反力 |
+|---------|--------|------|
+| 繩索/光滑面 | 1 | 沿繩/垂直接觸面 |
+| 球窩關節 (Ball-and-Socket) | 3 | Fx, Fy, Fz |
+| 單軸承/單鉸鏈 (Single Bearing/Hinge) | 5 | Fx, Fy, Fz + Mx, My |
+| 固定端 (Fixed Support) | 6 | Fx, Fy, Fz + Mx, My, Mz |
+
+### 5.6 平衡方程式 3D (Equations of Equilibrium, 3D)
+
+**力平衡：** Sum Fx = 0, Sum Fy = 0, Sum Fz = 0
+
+**力矩平衡：** Sum Mx = 0, Sum My = 0, Sum Mz = 0
+
+最多解 6 個未知數
+
+### 5.7 靜定判斷 (Constraints and Statical Determinacy)
+
+| 情況 | 未知數 vs 方程式 | 結果 |
+|------|-----------------|------|
+| 靜定 (Statically Determinate) | = | 可解（2D: 3, 3D: 6） |
+| 靜不定 (Statically Indeterminate) | > | 多餘支撐，靜力學解不出 |
+| 不當約束 (Improper) | = 但排列有問題 | 反力共點或平行 |
+| 部分約束 (Partial) | < | 支撐不夠 |
 
 ---
 

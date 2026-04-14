@@ -15,6 +15,30 @@
 | 5.6 | Equations of Equilibrium (3D) | 092 | 094 |
 | 5.7 | Constraints and Statical Determinacy | 095 | 117 |
 
+**Example Locations (Slide Index):**
+
+| Example | Slides |
+|---------|--------|
+| Ex 5.1 | 032 -- 033 |
+| Ex 5.2 | 034 -- 035 |
+| Ex 5.3 | 036 -- 037 |
+| Ex 5.4 | 038 -- 039 |
+| Ex 5.5 | 048 -- 050 |
+| Ex 5.6 | 051 -- 053 |
+| Ex 5.7 | 054 -- 055 |
+| Ex 5.8 | 056 -- 058 |
+| Ex 5.9 | 059 -- 060 |
+| Ex 5.10 | 061 -- 063 |
+| Ex 5.11 | 064 -- 065 |
+| Ex 5.12 | 066 -- 067 |
+| Ex 5.13 | 076 -- 077 |
+| Ex 5.14 | 089 -- 091 |
+| Ex 5.15 | 107 -- 109 |
+| Ex 5.16 | 110 -- 111 |
+| Ex 5.17 | 112 -- 113 |
+| Ex 5.18 | 114 -- 115 |
+| Ex 5.19 | 116 -- 117 |
+
 ---
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 01](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-001.png)
@@ -291,11 +315,15 @@ $$\sum M_A = 0; \quad \sum M_B = 0; \quad \sum M_C = 0$$
 
 ### Examples
 
+### Example 5.5
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 48](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-048.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 49](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-049.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 50](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-050.png)
+
+### Example 5.6
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 51](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-051.png)
 
@@ -303,9 +331,13 @@ $$\sum M_A = 0; \quad \sum M_B = 0; \quad \sum M_C = 0$$
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 53](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-053.png)
 
+### Example 5.7
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 54](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-054.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 55](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-055.png)
+
+### Example 5.8
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 56](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-056.png)
 
@@ -313,9 +345,13 @@ $$\sum M_A = 0; \quad \sum M_B = 0; \quad \sum M_C = 0$$
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 58](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-058.png)
 
+### Example 5.9
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 59](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-059.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 60](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-060.png)
+
+### Example 5.10
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 61](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-061.png)
 
@@ -323,9 +359,13 @@ $$\sum M_A = 0; \quad \sum M_B = 0; \quad \sum M_C = 0$$
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 63](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-063.png)
 
+### Example 5.11
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 64](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-064.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 65](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-065.png)
+
+### Example 5.12
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 66](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-066.png)
 
@@ -371,6 +411,8 @@ If a member is subjected to only three forces, it is called a **three-force memb
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 74](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-074.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 75](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-075.png)
+
+### Example 5.13
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 76](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-076.png)
 
@@ -422,13 +464,35 @@ However, when these supports are used with other properly aligned bearings, pins
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 84](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-084.png)
 
+| Type of Connection | Reaction | Number of Unknowns |
+|:---|:---|:---|
+| (3) Roller | Force F acts perpendicular to the surface at the point of contact | 1 |
+| (4) Ball and socket | Three rectangular force components Fx, Fy, Fz | 3 |
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 85](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-085.png)
+
+| Type of Connection | Reaction | Number of Unknowns |
+|:---|:---|:---|
+| (5) Single journal bearing | Two force components (Fx, Fz) and two couple-moment components (Mx, Mz) perpendicular to the shaft | 4 |
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 86](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-086.png)
 
+| Type of Connection | Reaction | Number of Unknowns |
+|:---|:---|:---|
+| (6) Single journal bearing with square shaft | Two force components (Fx, Fz) and three couple-moment components (Mx, My, Mz) | 5 |
+| (7) Single thrust bearing | Three force components (Fx, Fy, Fz) and two couple-moment components (Mx, Mz) | 5 |
+
+> Note: For items (5), (6), and (7), the couple moments are generally not applied if the body is supported elsewhere by properly aligned bearings, pins, or hinges.
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 87](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-087.png)
 
+Real-world example of a thrust bearing supporting a drive shaft on a machine.
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 88](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-088.png)
+
+Real-world examples of supports: a thrust bearing used to support a drive shaft, and a pin joint used to support the end of a strut on a tractor.
+
+### Example 5.14
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 89](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-089.png)
 
@@ -519,13 +583,34 @@ In 3D, a body will be improperly constrained if the lines of action of all the r
 
 When there are **fewer** reactive forces than equations of equilibrium, the body is **partially constrained**. For example, if $\sum F_y = 0$ cannot be satisfied for the given loading conditions, equilibrium will not be maintained.
 
-### Procedure for Analysis and Examples
+### Procedure for Analysis
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 104](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-104.png)
 
+Stability is always an important concern when operating a crane, not only when lifting a load, but also when moving it about.
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 105](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-105.png)
 
+**Free-Body Diagram:**
+
+1. Draw an outlined shape of the body.
+2. Show all the forces and couple moments acting on the body.
+3. Establish the origin of the x, y, z axes at a convenient point and orient the axes so that they are parallel to as many of the external forces and moments as possible.
+4. Label all the loadings and specify their directions. In general, show all the unknown components having a positive sense along the x, y, z axes.
+5. Indicate the dimensions of the body necessary for computing the moments of forces.
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 106](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-106.png)
+
+**Equations of Equilibrium:**
+
+- If the x, y, z force and moment components are easy to determine, apply the six scalar equations of equilibrium; otherwise, use vector equations.
+- The axes chosen for force summation do not need to coincide with those chosen for moment summation.
+- Choose the direction of an axis for moment summation such that it intersects the lines of action of as many unknown forces as possible. Moments of forces passing through points on this axis or forces parallel to the axis will be zero.
+- If the solution yields a negative scalar, the sense is opposite to what was assumed on the FBD.
+
+### Examples
+
+### Example 5.15
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 107](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-107.png)
 
@@ -533,17 +618,25 @@ When there are **fewer** reactive forces than equations of equilibrium, the body
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 109](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-109.png)
 
+### Example 5.16
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 110](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-110.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 111](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-111.png)
+
+### Example 5.17
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 112](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-112.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 113](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-113.png)
 
+### Example 5.18
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 114](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-114.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 115](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-115.png)
+
+### Example 5.19
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 116](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-116.png)
 
