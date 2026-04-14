@@ -2,6 +2,44 @@
 
 > Engineering Mechanics: Statics, 14th Edition (SI Units)
 
+### Section Boundaries
+
+| Section | Title | Start Slide | End Slide |
+|:-------:|:------|:-----------:|:---------:|
+| — | Title / Objectives / Outline | 001 | 004 |
+| 2.1 | Scalars and Vectors | 005 | 006 |
+| 2.2 | Vector Operations | 007 | 011 |
+| 2.3 | Vector Addition of Forces | 012 | 029 |
+| 2.4 | Addition of a System of Coplanar Forces | 030 | 047 |
+| 2.5 | Cartesian Vectors | 048 | 057 |
+| 2.6 | Addition of Cartesian Vectors | 058 | 065 |
+| 2.7 | Position Vectors | 066 | 075 |
+| 2.8 | Force Vector Directed along a Line | 076 | 083 |
+| 2.9 | Dot Product | 084 | 102 |
+
+**Example Locations (Slide Index):**
+
+| Example | Slides |
+|---------|--------|
+| Ex 2.1 | 022 -- 023 |
+| Ex 2.2 | 024 -- 025 |
+| Ex 2.3 | 026 -- 027 |
+| Ex 2.4 | 028 -- 029 |
+| Ex 2.5 | 040 -- 042 |
+| Ex 2.6 | 043 -- 044 |
+| Ex 2.7 | 045 -- 047 |
+| Ex 2.8 | 060 -- 061 |
+| Ex 2.9 | 062 -- 063 |
+| Ex 2.10 | 071 -- 072 |
+| Ex 2.11 | 077 -- 078 |
+| Ex 2.12 | 079 -- 081 |
+| Ex 2.13 | 082 -- 083 |
+| Ex 2.14 | 096 |
+| Ex 2.15 | 097 -- 099 |
+| Ex 2.16 | 100 -- 102 |
+
+---
+
 ![ch02-Force-Vectors Slide 001](assets/ch02-Force-Vectors/slide-001.png)
 
 ---
@@ -144,17 +182,25 @@ Example: Forces $\mathbf{F_1}$, $\mathbf{F_2}$, and $\mathbf{F_3}$ act at a poin
 
 ![ch02-Force-Vectors Slide 021](assets/ch02-Force-Vectors/slide-021.png)
 
+### Example 2.1
+
 ![ch02-Force-Vectors Slide 022](assets/ch02-Force-Vectors/slide-022.png)
 
 ![ch02-Force-Vectors Slide 023](assets/ch02-Force-Vectors/slide-023.png)
+
+### Example 2.2
 
 ![ch02-Force-Vectors Slide 024](assets/ch02-Force-Vectors/slide-024.png)
 
 ![ch02-Force-Vectors Slide 025](assets/ch02-Force-Vectors/slide-025.png)
 
+### Example 2.3
+
 ![ch02-Force-Vectors Slide 026](assets/ch02-Force-Vectors/slide-026.png)
 
 ![ch02-Force-Vectors Slide 027](assets/ch02-Force-Vectors/slide-027.png)
+
+### Example 2.4
 
 ![ch02-Force-Vectors Slide 028](assets/ch02-Force-Vectors/slide-028.png)
 
@@ -239,15 +285,21 @@ $$\theta = \tan^{-1}\left|\frac{(F_R)_y}{(F_R)_x}\right|$$
 
 ### Examples
 
+### Example 2.5
+
 ![ch02-Force-Vectors Slide 040](assets/ch02-Force-Vectors/slide-040.png)
 
 ![ch02-Force-Vectors Slide 041](assets/ch02-Force-Vectors/slide-041.png)
 
 ![ch02-Force-Vectors Slide 042](assets/ch02-Force-Vectors/slide-042.png)
 
+### Example 2.6
+
 ![ch02-Force-Vectors Slide 043](assets/ch02-Force-Vectors/slide-043.png)
 
 ![ch02-Force-Vectors Slide 044](assets/ch02-Force-Vectors/slide-044.png)
+
+### Example 2.7
 
 ![ch02-Force-Vectors Slide 045](assets/ch02-Force-Vectors/slide-045.png)
 
@@ -369,9 +421,13 @@ $$\mathbf{F_R} = \sum \mathbf{F}$$
 
 ### Examples
 
+### Example 2.8
+
 ![ch02-Force-Vectors Slide 060](assets/ch02-Force-Vectors/slide-060.png)
 
 ![ch02-Force-Vectors Slide 061](assets/ch02-Force-Vectors/slide-061.png)
+
+### Example 2.9
 
 ![ch02-Force-Vectors Slide 062](assets/ch02-Force-Vectors/slide-062.png)
 
@@ -415,6 +471,8 @@ $$\mathbf{r} = (x_B - x_A)\mathbf{i} + (y_B - y_A)\mathbf{j} + (z_B - z_A)\mathb
 
 ### Examples
 
+### Example 2.10
+
 ![ch02-Force-Vectors Slide 071](assets/ch02-Force-Vectors/slide-071.png)
 
 ![ch02-Force-Vectors Slide 072](assets/ch02-Force-Vectors/slide-072.png)
@@ -431,6 +489,8 @@ $$\mathbf{r} = (x_B - x_A)\mathbf{i} + (y_B - y_A)\mathbf{j} + (z_B - z_A)\mathb
 
 ![ch02-Force-Vectors Slide 076](assets/ch02-Force-Vectors/slide-076.png)
 
+### Example 2.11
+
 ![ch02-Force-Vectors Slide 077](assets/ch02-Force-Vectors/slide-077.png)
 
 ![ch02-Force-Vectors Slide 078](assets/ch02-Force-Vectors/slide-078.png)
@@ -445,11 +505,15 @@ $\mathbf{F}$ has units of forces, unlike $\mathbf{r}$ which has units of length.
 
 ### Examples
 
+### Example 2.12
+
 ![ch02-Force-Vectors Slide 079](assets/ch02-Force-Vectors/slide-079.png)
 
 ![ch02-Force-Vectors Slide 080](assets/ch02-Force-Vectors/slide-080.png)
 
 ![ch02-Force-Vectors Slide 081](assets/ch02-Force-Vectors/slide-081.png)
+
+### Example 2.13
 
 ![ch02-Force-Vectors Slide 082](assets/ch02-Force-Vectors/slide-082.png)
 
@@ -534,13 +598,19 @@ $$A_\perp = \sqrt{A^2 - A_a^2}$$
 
 ![ch02-Force-Vectors Slide 095](assets/ch02-Force-Vectors/slide-095.png)
 
+### Example 2.14
+
 ![ch02-Force-Vectors Slide 096](assets/ch02-Force-Vectors/slide-096.png)
+
+### Example 2.15
 
 ![ch02-Force-Vectors Slide 097](assets/ch02-Force-Vectors/slide-097.png)
 
 ![ch02-Force-Vectors Slide 098](assets/ch02-Force-Vectors/slide-098.png)
 
 ![ch02-Force-Vectors Slide 099](assets/ch02-Force-Vectors/slide-099.png)
+
+### Example 2.16
 
 ![ch02-Force-Vectors Slide 100](assets/ch02-Force-Vectors/slide-100.png)
 
