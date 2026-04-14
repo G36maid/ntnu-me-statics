@@ -2,6 +2,23 @@
 
 > Engineering Mechanics: Statics, 14th Edition (SI Units)
 
+**Section Boundaries (Slide Index):**
+
+| Section | Start Slide |
+|---------|-------------|
+| Cover / Objectives / Outline | 001 -- 004 |
+| 4.1 Moment of a Force -- Scalar Formulation | 005 |
+| 4.2 Cross Product | 018 |
+| 4.3 Moment of a Force -- Vector Formulation | 027 |
+| 4.4 Principle of Moments | 038 |
+| 4.5 Moment of a Force about a Specified Axis | 046 |
+| 4.6 Moment of a Couple | 058 |
+| 4.7 Simplification of a Force and Couple System | 076 |
+| 4.8 Further Simplification of a Force and Couple System | 094 |
+| 4.9 Reduction of a Simple Distributed Loading | 114 |
+
+---
+
 ![ch04N-Force-System-Resultants Slide 001](assets/ch04N-Force-System-Resultants/slide-001.png)
 
 ---
@@ -40,8 +57,6 @@
 ![ch04N-Force-System-Resultants Slide 005](assets/ch04N-Force-System-Resultants/slide-005.png)
 
 The tendency to rotate is called the **moment of a force** (or simply the **moment**, sometimes called a **torque**).
-
-### Magnitude of the Moment
 
 ![ch04N-Force-System-Resultants Slide 006](assets/ch04N-Force-System-Resultants/slide-006.png)
 
@@ -109,13 +124,13 @@ $$(M_R)_O = F_1 d_1 - F_2 d_2 + F_3 d_3$$
 
 ![ch04N-Force-System-Resultants Slide 017](assets/ch04N-Force-System-Resultants/slide-017.png)
 
-![ch04N-Force-System-Resultants Slide 018](assets/ch04N-Force-System-Resultants/slide-018.png)
-
-![ch04N-Force-System-Resultants Slide 019](assets/ch04N-Force-System-Resultants/slide-019.png)
-
 ---
 
 ## 4.2 Cross Product
+
+![ch04N-Force-System-Resultants Slide 018](assets/ch04N-Force-System-Resultants/slide-018.png)
+
+![ch04N-Force-System-Resultants Slide 019](assets/ch04N-Force-System-Resultants/slide-019.png)
 
 ![ch04N-Force-System-Resultants Slide 020](assets/ch04N-Force-System-Resultants/slide-020.png)
 
@@ -189,6 +204,10 @@ $$\mathbf{i} \times \mathbf{j} = (1)(1)(\sin 90^\circ)\,\mathbf{k} = (1)(1)(1)\,
 
 $$\mathbf{A} \times \mathbf{B} = (A_yB_z - A_zB_y)\,\mathbf{i} - (A_xB_z - A_zB_x)\,\mathbf{j} + (A_xB_y - A_yB_x)\,\mathbf{k}$$
 
+---
+
+## 4.3 Moment of a Force -- Vector Formulation
+
 ![ch04N-Force-System-Resultants Slide 027](assets/ch04N-Force-System-Resultants/slide-027.png)
 
 **Determinant form:**
@@ -202,10 +221,6 @@ $$\mathbf{A} \times \mathbf{B} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \math
 - For element $\mathbf{i}$: $\mathbf{i}(A_yB_z - A_zB_y)$
 - For element $\mathbf{j}$: $-\mathbf{j}(A_xB_z - A_zB_x)$ -- remember the negative sign
 - For element $\mathbf{k}$: $\mathbf{k}(A_xB_y - A_yB_x)$
-
----
-
-## 4.3 Moment of a Force -- Vector Formulation
 
 ![ch04N-Force-System-Resultants Slide 029](assets/ch04N-Force-System-Resultants/slide-029.png)
 
@@ -272,6 +287,12 @@ $$(\mathbf{M_R})_O = \sum (\mathbf{r} \times \mathbf{F})$$
 
 ![ch04N-Force-System-Resultants Slide 037](assets/ch04N-Force-System-Resultants/slide-037.png)
 
+---
+
+## 4.4 Principle of Moments
+
+### Varignon's Theorem
+
 ![ch04N-Force-System-Resultants Slide 038](assets/ch04N-Force-System-Resultants/slide-038.png)
 
 ![ch04N-Force-System-Resultants Slide 039](assets/ch04N-Force-System-Resultants/slide-039.png)
@@ -279,12 +300,6 @@ $$(\mathbf{M_R})_O = \sum (\mathbf{r} \times \mathbf{F})$$
 ![ch04N-Force-System-Resultants Slide 040](assets/ch04N-Force-System-Resultants/slide-040.png)
 
 ![ch04N-Force-System-Resultants Slide 041](assets/ch04N-Force-System-Resultants/slide-041.png)
-
----
-
-## 4.4 Principle of Moments
-
-### Varignon's Theorem
 
 ![ch04N-Force-System-Resultants Slide 042](assets/ch04N-Force-System-Resultants/slide-042.png)
 
@@ -306,6 +321,10 @@ $$M_O = F_x y - F_y x$$
 
 ![ch04N-Force-System-Resultants Slide 045](assets/ch04N-Force-System-Resultants/slide-045.png)
 
+---
+
+## 4.5 Moment of a Force about a Specified Axis
+
 ![ch04N-Force-System-Resultants Slide 046](assets/ch04N-Force-System-Resultants/slide-046.png)
 
 ![ch04N-Force-System-Resultants Slide 047](assets/ch04N-Force-System-Resultants/slide-047.png)
@@ -313,10 +332,6 @@ $$M_O = F_x y - F_y x$$
 ![ch04N-Force-System-Resultants Slide 048](assets/ch04N-Force-System-Resultants/slide-048.png)
 
 ![ch04N-Force-System-Resultants Slide 049](assets/ch04N-Force-System-Resultants/slide-049.png)
-
----
-
-## 4.5 Moment of a Force about a Specified Axis
 
 ![ch04N-Force-System-Resultants Slide 050](assets/ch04N-Force-System-Resultants/slide-050.png)
 
@@ -368,6 +383,12 @@ $$\mathbf{M_a} = M_a\,\mathbf{u_a} = [\mathbf{u_a} \cdot (\mathbf{r} \times \mat
 
 ![ch04N-Force-System-Resultants Slide 057](assets/ch04N-Force-System-Resultants/slide-057.png)
 
+---
+
+## 4.6 Moment of a Couple
+
+### Definition
+
 ![ch04N-Force-System-Resultants Slide 058](assets/ch04N-Force-System-Resultants/slide-058.png)
 
 ![ch04N-Force-System-Resultants Slide 059](assets/ch04N-Force-System-Resultants/slide-059.png)
@@ -375,12 +396,6 @@ $$\mathbf{M_a} = M_a\,\mathbf{u_a} = [\mathbf{u_a} \cdot (\mathbf{r} \times \mat
 ![ch04N-Force-System-Resultants Slide 060](assets/ch04N-Force-System-Resultants/slide-060.png)
 
 ![ch04N-Force-System-Resultants Slide 061](assets/ch04N-Force-System-Resultants/slide-061.png)
-
----
-
-## 4.6 Moment of a Couple
-
-### Definition
 
 ![ch04N-Force-System-Resultants Slide 062](assets/ch04N-Force-System-Resultants/slide-062.png)
 
@@ -463,6 +478,10 @@ $$\mathbf{M_R} = \sum (\mathbf{r} \times \mathbf{F})$$
 
 ![ch04N-Force-System-Resultants Slide 075](assets/ch04N-Force-System-Resultants/slide-075.png)
 
+---
+
+## 4.7 Simplification of a Force and Couple System
+
 ![ch04N-Force-System-Resultants Slide 076](assets/ch04N-Force-System-Resultants/slide-076.png)
 
 ![ch04N-Force-System-Resultants Slide 077](assets/ch04N-Force-System-Resultants/slide-077.png)
@@ -474,10 +493,6 @@ $$\mathbf{M_R} = \sum (\mathbf{r} \times \mathbf{F})$$
 ![ch04N-Force-System-Resultants Slide 080](assets/ch04N-Force-System-Resultants/slide-080.png)
 
 ![ch04N-Force-System-Resultants Slide 081](assets/ch04N-Force-System-Resultants/slide-081.png)
-
----
-
-## 4.7 Simplification of a Force and Couple System
 
 ![ch04N-Force-System-Resultants Slide 082](assets/ch04N-Force-System-Resultants/slide-082.png)
 
@@ -541,6 +556,10 @@ $$(M_R)_O = \sum M_O + \sum M$$
 
 ![ch04N-Force-System-Resultants Slide 093](assets/ch04N-Force-System-Resultants/slide-093.png)
 
+---
+
+## 4.8 Further Simplification of a Force and Couple System
+
 ![ch04N-Force-System-Resultants Slide 094](assets/ch04N-Force-System-Resultants/slide-094.png)
 
 ![ch04N-Force-System-Resultants Slide 095](assets/ch04N-Force-System-Resultants/slide-095.png)
@@ -552,10 +571,6 @@ $$(M_R)_O = \sum M_O + \sum M$$
 ![ch04N-Force-System-Resultants Slide 098](assets/ch04N-Force-System-Resultants/slide-098.png)
 
 ![ch04N-Force-System-Resultants Slide 099](assets/ch04N-Force-System-Resultants/slide-099.png)
-
----
-
-## 4.8 Further Simplification of a Force and Couple System
 
 ![ch04N-Force-System-Resultants Slide 100](assets/ch04N-Force-System-Resultants/slide-100.png)
 
@@ -625,6 +640,10 @@ For 3-D force and couple moment systems where $(\mathbf{M_R})_O$ is **not perpen
 
 ![ch04N-Force-System-Resultants Slide 113](assets/ch04N-Force-System-Resultants/slide-113.png)
 
+---
+
+## 4.9 Reduction of a Simple Distributed Loading
+
 ![ch04N-Force-System-Resultants Slide 114](assets/ch04N-Force-System-Resultants/slide-114.png)
 
 ![ch04N-Force-System-Resultants Slide 115](assets/ch04N-Force-System-Resultants/slide-115.png)
@@ -632,10 +651,6 @@ For 3-D force and couple moment systems where $(\mathbf{M_R})_O$ is **not perpen
 ![ch04N-Force-System-Resultants Slide 116](assets/ch04N-Force-System-Resultants/slide-116.png)
 
 ![ch04N-Force-System-Resultants Slide 117](assets/ch04N-Force-System-Resultants/slide-117.png)
-
----
-
-## 4.9 Reduction of a Simple Distributed Loading
 
 ![ch04N-Force-System-Resultants Slide 118](assets/ch04N-Force-System-Resultants/slide-118.png)
 
