@@ -2,6 +2,21 @@
 
 > Engineering Mechanics: Statics, 14th Edition (SI Units)
 
+### Section Boundaries
+
+| Section | Title | Start Slide | End Slide |
+|:-------:|:------|:-----------:|:---------:|
+| — | Title / Objectives / Outline | 001 | 003 |
+| 5.1 | Conditions for Rigid-Body Equilibrium | 004 | 007 |
+| 5.2 | Free-Body Diagrams | 008 | 039 |
+| 5.3 | Equations of Equilibrium | 040 | 067 |
+| 5.4 | Two- and Three-Force Members | 068 | 077 |
+| 5.5 | Free-Body Diagrams (3D) | 078 | 091 |
+| 5.6 | Equations of Equilibrium (3D) | 092 | 094 |
+| 5.7 | Constraints and Statical Determinacy | 095 | 117 |
+
+---
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 01](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-001.png)
 
 ---
@@ -316,13 +331,15 @@ $$\sum M_A = 0; \quad \sum M_B = 0; \quad \sum M_C = 0$$
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 67](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-067.png)
 
+---
+
+## 5.4 Two- and Three-Force Members
+
+
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 68](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-068.png)
 
 ![ch05-Equilibrium-of-a-Rigid-Body Slide 69](assets/ch05-Equilibrium-of-a-Rigid-Body/slide-069.png)
 
----
-
-## 5.4 Two- and Three-Force Members
 
 Simplify some equilibrium problems by recognizing members that are subjected to only 2 or 3 forces.
 
