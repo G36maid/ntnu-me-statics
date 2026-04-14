@@ -2,6 +2,31 @@
 
 > Engineering Mechanics: Statics, 14th Edition (SI Units)
 
+### Section Boundaries
+
+| Section | Title | Start Slide | End Slide |
+|:-------:|:------|:-----------:|:---------:|
+| — | Title / Objectives / Outline | 001 | 003 |
+| 3.1 | Condition for the Equilibrium of a Particle | 004 | 005 |
+| 3.2 | The Free-Body Diagram | 006 | 017 |
+| 3.3 | Coplanar Force Systems | 018 | 029 |
+| 3.4 | Three-Dimensional Force Systems | 030 | 042 |
+
+**Example Locations (Slide Index):**
+
+| Example | Slides |
+|---------|--------|
+| Ex 3.1 | 016 -- 017 |
+| Ex 3.2 | 024 -- 025 |
+| Ex 3.3 | 026 -- 027 |
+| Ex 3.4 | 028 -- 029 |
+| Ex 3.5 | 035 -- 036 |
+| Ex 3.6 | 037 -- 038 |
+| Ex 3.7 | 039 -- 040 |
+| Ex 3.8 | 041 -- 042 |
+
+---
+
 ![ch03-Equilibrium-of-a-Particle Slide 01](assets/ch03-Equilibrium-of-a-Particle/slide-01.png)
 
 ---
@@ -121,6 +146,8 @@ If an object rests on a smooth surface, then the surface will exert a force on t
 
 ---
 
+### Example 3.1
+
 ![ch03-Equilibrium-of-a-Particle Slide 16](assets/ch03-Equilibrium-of-a-Particle/slide-16.png)
 
 ![ch03-Equilibrium-of-a-Particle Slide 17](assets/ch03-Equilibrium-of-a-Particle/slide-17.png)
@@ -182,6 +209,8 @@ Force $F$ acts towards the **left** for equilibrium.
 
 ---
 
+### Example 3.2
+
 ![ch03-Equilibrium-of-a-Particle Slide 24](assets/ch03-Equilibrium-of-a-Particle/slide-24.png)
 
 ---
@@ -190,6 +219,8 @@ Force $F$ acts towards the **left** for equilibrium.
 
 ---
 
+### Example 3.3
+
 ![ch03-Equilibrium-of-a-Particle Slide 26](assets/ch03-Equilibrium-of-a-Particle/slide-26.png)
 
 ---
@@ -197,6 +228,8 @@ Force $F$ acts towards the **left** for equilibrium.
 ![ch03-Equilibrium-of-a-Particle Slide 27](assets/ch03-Equilibrium-of-a-Particle/slide-27.png)
 
 ---
+
+### Example 3.4
 
 ![ch03-Equilibrium-of-a-Particle Slide 28](assets/ch03-Equilibrium-of-a-Particle/slide-28.png)
 
@@ -252,17 +285,25 @@ $$\boxed{\sum F_x = 0, \quad \sum F_y = 0, \quad \sum F_z = 0}$$
 
 ---
 
+### Example 3.5
+
 ![ch03-Equilibrium-of-a-Particle Slide 35](assets/ch03-Equilibrium-of-a-Particle/slide-35.png)
 
 ![ch03-Equilibrium-of-a-Particle Slide 36](assets/ch03-Equilibrium-of-a-Particle/slide-36.png)
+
+### Example 3.6
 
 ![ch03-Equilibrium-of-a-Particle Slide 37](assets/ch03-Equilibrium-of-a-Particle/slide-37.png)
 
 ![ch03-Equilibrium-of-a-Particle Slide 38](assets/ch03-Equilibrium-of-a-Particle/slide-38.png)
 
+### Example 3.7
+
 ![ch03-Equilibrium-of-a-Particle Slide 39](assets/ch03-Equilibrium-of-a-Particle/slide-39.png)
 
 ![ch03-Equilibrium-of-a-Particle Slide 40](assets/ch03-Equilibrium-of-a-Particle/slide-40.png)
+
+### Example 3.8
 
 ![ch03-Equilibrium-of-a-Particle Slide 41](assets/ch03-Equilibrium-of-a-Particle/slide-41.png)
 
