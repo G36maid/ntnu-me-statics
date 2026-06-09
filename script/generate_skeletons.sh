@@ -12,15 +12,11 @@ mkdir -p "$NOTES_DIR"
 for target_dir in "$ASSETS_DIR"/*; do
     [ -d "$target_dir" ] || continue
 
-    dirname=$(basename "$target_dir") # e.g.: Ch1_Introduction
+    dirname=$(basename "$target_dir")
 
-    # Parse chapter number and name, create filename like 01-introduction.md
-    # Use Bash native regex to extract number and name
-    if [[ "$dirname" =~ ^Ch([0-9]+)_(.*)$ ]]; then
-        # Pad number to two digits
+    if [[ "$dirname" =~ ^ch([0-9]+)[A-Za-z]*-(.+)$ ]]; then
         ch_num=$(printf "%02d" "${BASH_REMATCH[1]}")
-        # Lowercase and replace underscores with dashes
-        ch_name=$(echo "${BASH_REMATCH[2]}" | tr '[:upper:]' '[:lower:]' | tr '_' '-')
+        ch_name=$(echo "${BASH_REMATCH[2]}" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
         md_filename="${ch_num}-${ch_name}.md"
     else
         md_filename="${dirname}.md"
@@ -37,7 +33,7 @@ for target_dir in "$ASSETS_DIR"/*; do
     echo "-> [Create] $md_filename ..."
 
     # Write top-level title (replace underscores with spaces)
-    echo "# ${dirname//_/ }" > "$md_filepath"
+    echo "# ${dirname//-/ }" > "$md_filepath"
     echo "" >> "$md_filepath"
 
     # Read images inside the folder and write the skeleton

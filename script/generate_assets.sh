@@ -16,7 +16,8 @@ for pdf_path in "$SRC_DIR"/*.pdf; do
     [ -e "$pdf_path" ] || continue
 
     filename=$(basename "$pdf_path" .pdf)
-    target_dir="$DEST_BASE/$filename"
+    safe_name=$(echo "$filename" | tr ' ' '-')
+    target_dir="$DEST_BASE/$safe_name"
 
     # Get total pages of the PDF (find the 'Pages:' line and print the following number)
     page_count=$(pdfinfo "$pdf_path" | awk '/^Pages:/ {print $2}')
@@ -30,11 +31,11 @@ for pdf_path in "$SRC_DIR"/*.pdf; do
 
     # Compare counts
     if [ "$img_count" -eq "$page_count" ]; then
-        echo "-> [Skip] $filename (already has $img_count/$page_count pages)"
+        echo "-> [Skip] $safe_name (already has $img_count/$page_count pages)"
         continue
     fi
 
-    echo "-> [Process] $filename (current progress: $img_count/$page_count) ..."
+    echo "-> [Process] $safe_name (current progress: $img_count/$page_count) ..."
     mkdir -p "$target_dir"
 
     # Perform conversion
