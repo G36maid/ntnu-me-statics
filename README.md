@@ -36,6 +36,9 @@ me-statics/
 | Ch 3 | Equilibrium of a Particle | [📝 筆記](notes/03-particle-equilibrium.md) | [PDF](course-materials/ch03%20Equilibrium%20of%20a%20Particle_N.pdf) |
 | Ch 4 | Force System Resultants | [📝 筆記](notes/04-force-system-resultants.md) | [PDF](course-materials/ch04N%20Force%20System%20Resultants.pdf) |
 | Ch 5 | Equilibrium of a Rigid Body | [📝 筆記](notes/05-equilibrium-rigid-body.md) | [PDF](course-materials/ch05%20Equilibrium%20of%20a%20Rigid%20Body.pdf) |
+| Ch 6 | Structural Analysis | [📝 筆記](notes/06-structural-analysis.md) | [PDF](course-materials/ch06N%20Structural%20Analysis.pdf) |
+| Ch 7 | Internal Forces | [📝 筆記](notes/07-internal-forces.md) | [PDF](course-materials/ch07%20Internal%20Forces.pdf) |
+| Ch 8 | Friction | [📝 筆記](notes/08-friction.md) | [PDF](course-materials/ch08%20Friction.pdf) |
 
 ### 習題解答 (Solution Sets)
 
@@ -62,6 +65,9 @@ me-statics/
 - **質點平衡** (Equilibrium of a Particle) - 自由體圖、共面與三維力系平衡
 - **力系合量** (Force System Resultants) - 力矩、叉積、力偶、分佈載荷
 - **剛體平衡** (Equilibrium of a Rigid Body) - 自由體圖、二力/三力構件、支撐反力、靜定與靜不定
+- **結構分析** (Structural Analysis) - 桁架、節點法、截面法、零力桿件、空間桁架、框架與機械
+- **內力** (Internal Forces) - 剪力與彎矩圖、分佈載荷關係、纜索分析
+- **摩擦** (Friction) - 乾摩擦特性、楔塊、螺紋、皮帶、軸承、滾動阻力
 
 ## 📝 如何使用此倉庫
 
@@ -84,12 +90,15 @@ me-statics/
 
 ## 🚀 待辦事項
 
-- [x] 將課程 PDF 轉換為 Markdown 筆記 (Ch1–Ch4)
+- [x] 將課程 PDF 轉換為 Markdown 筆記 (Ch1–Ch8)
 - [x] 建立 `notes/01-general-principles.md`
 - [x] 建立 `notes/02-force-vectors.md`
 - [x] 建立 `notes/03-particle-equilibrium.md`
 - [x] 建立 `notes/04-force-system-resultants.md`
 - [x] 建立 `notes/05-equilibrium-rigid-body.md`
+- [x] 建立 `notes/06-structural-analysis.md`
+- [x] 建立 `notes/07-internal-forces.md`
+- [x] 建立 `notes/08-friction.md`
 - [x] 將習題解答 PDF 轉換為 Markdown (Ch1–Ch11)
 - [ ] 為每章節補充更多例題與學習重點
 - [ ] 新增相關參考資源與連結
@@ -104,4 +113,4 @@ me-statics/
 
 ---
 
-**最後更新**：2026-04-14
+**最後更新**：2026-06-09
